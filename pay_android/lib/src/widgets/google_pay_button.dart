@@ -145,7 +145,7 @@ class RawGooglePayButton extends StatelessWidget {
     }
   }
 
-  _onPlatformViewCreated(int viewId) {
+  void _onPlatformViewCreated(int viewId) {
     MethodChannel methodChannel = MethodChannel('$viewType/$viewId');
     methodChannel.setMethodCallHandler((call) async {
       if (call.method == 'onPressed') onPressed?.call();
