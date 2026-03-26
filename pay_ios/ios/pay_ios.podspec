@@ -13,9 +13,9 @@ Pod::Spec.new do |s|
   s.author           = { 'Google Pay Developer Relations' => 'payments-devrel-flutter@googlegroups.com
   ' }
   s.source           = { :http => 'https://github.com/google-pay/flutter-plugin' }
-  s.source_files = 'pay_ios/Sources/pay_ios/**/*.swift'
+  s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
-  s.platform = :ios, '13.0'
+  s.platform = :ios, '8.0'
   s.frameworks  = 'PassKit'
   # Flutter.framework does not contain a i386 slice.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
