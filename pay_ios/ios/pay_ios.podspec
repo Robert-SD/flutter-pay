@@ -1,4 +1,4 @@
-# Copyright 2021 Google LLC
+# Copyright 2026 Google LLC
 # SPDX-License-Identifier: Apache-2.0
 
 Pod::Spec.new do |s|
