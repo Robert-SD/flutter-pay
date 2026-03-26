@@ -7,7 +7,7 @@ let package = Package(
         .iOS("13.0")
     ],
     products: [
-        .library(name: "pay_ios", targets: ["pay_ios"])
+        .library(name: "pay-ios", targets: ["pay_ios"])
     ],
     dependencies: [
         .package(name: "FlutterFramework", path: "../FlutterFramework")
