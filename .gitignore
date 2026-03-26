@@ -36,10 +36,6 @@ xcuserdata/
 generated_plugin_registrant.*
 GeneratedPluginRegistrant.*
 
-# Swift Package Manager
-.build/
-.swiftpm/
-
 # Gradle 
 **/gradle-wrapper.jar
 .gradle/
@@ -61,4 +57,3 @@ gradlew.bat
 .idea
 .flutter-plugins
 .flutter-plugins-dependencies
-plan.md
