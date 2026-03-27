@@ -9,15 +9,11 @@ let package = Package(
     products: [
         .library(name: "pay-ios", targets: ["pay_ios"])
     ],
-    dependencies: [
-        .package(name: "FlutterFramework", path: "../FlutterFramework")
-    ],
+    dependencies: [],
     targets: [
         .target(
             name: "pay_ios",
-            dependencies: [
-                .product(name: "FlutterFramework", package: "FlutterFramework")
-            ]
+            dependencies: []
         )
     ]
 )
