@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.2.0 (2026-06-19)
+Add support for Swift Package Manager (SPM).
+
 ## 1.1.0 (2025-01-10)
 Introduce new payment methods available in [`PKPaymentNetwork`](https://developer.apple.com/documentation/passkit/pkpaymentnetwork). New values include:
 

@@ -111,7 +111,7 @@ abstract class PayButton extends StatefulWidget {
     onPaymentResult?.call(result);
   }
 
-  void _deliverError(error) {
+  void _deliverError(Object error) {
     onError?.call(error);
   }
 }

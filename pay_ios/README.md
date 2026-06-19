@@ -10,11 +10,10 @@ This package is the endorsed implementation of the [`pay` plugin](https://pub.de
 
 ### Using this package directly
 
-If you prefer to integrate or extend this package separately, add it as a dependency in your `pubspec.yaml` file as follows:
+If you prefer to integrate or extend this package separately, add `pay_ios` as a [dependency in your `pubspec.yaml` file](https://flutter.io/platform-plugins/) as follows:
 
-```yaml
-dependencies:
-  pay_ios: ^1.1.0
+```shell
+flutter pub add pay_ios
 ```
 
 Now, you can use the buttons available for the supported payment providers and the methods exposed in [the interface that this package uses](https://github.com/google-pay/flutter-plugin/tree/main/pay_platform_interface) to communicate with the native end.
